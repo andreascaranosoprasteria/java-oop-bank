@@ -53,6 +53,7 @@ public class Bank {
 			System.out.println("\n<<SALDO ATTUALE : "+String.format("%,12.2f ",profilo.getSaldo())+"£ >>");
 		}
 		while(flag != 3);
+		in.close();
 
 	}
 	
