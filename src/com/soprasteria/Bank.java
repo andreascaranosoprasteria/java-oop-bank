@@ -47,7 +47,7 @@ public class Bank {
 				System.out.print("IMPORTO DA PRELEVARE: ");
 				profilo.prelievo(Double.parseDouble(in.nextLine()));
 			}
-			else if(flag == 3) flag = 3;
+			else if(flag == 3) continue;
 			else System.out.println("<!>Hai inserito un valore non valido<!>");
 			
 			System.out.println("\n<<SALDO ATTUALE : "+String.format("%,12.2f ",profilo.getSaldo())+"£ >>");
